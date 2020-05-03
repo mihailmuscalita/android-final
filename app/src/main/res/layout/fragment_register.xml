@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Tomato"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <TextView
+        android:id="@+id/messageNewUser"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Create an account "
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:text="Create an account" />
+
+    <EditText
+        android:id="@+id/userNameRegister"
+        android:importantForAutofill="no"
+        android:drawableLeft="@drawable/ic_action_user"
+        tools:targetApi="o"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/userNameRegister"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/userPasswordRegister1"
+        android:importantForAutofill="no"
+        android:drawableLeft="@drawable/ic_action_password"
+        tools:targetApi="o"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/userPasswordRegister"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/userPasswordRegister2"
+        android:importantForAutofill="no"
+        android:drawableLeft="@drawable/ic_action_password"
+        tools:targetApi="o"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/userPasswordRegister"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/appName"
+        android:importantForAutofill="no"
+        android:drawableLeft="@drawable/ic_account_circle"
+        tools:targetApi="o"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/appName"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/email"
+        android:importantForAutofill="no"
+        android:drawableLeft="@drawable/ic_email"
+        tools:targetApi="o"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/registerNewUser"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/button_radius"
+        android:text="@string/newUserRegister"
+        android:visibility="visible" />
+
+</RelativeLayout>

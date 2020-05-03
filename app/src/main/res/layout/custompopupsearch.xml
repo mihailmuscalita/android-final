@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    android:background="@color/AliceBlue">
+
+    <ImageView
+        android:id="@+id/imagePopupSearch"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/images"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/textPopupSearch"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:id="@+id/closePopupButtonSearch"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="160dp"
+            android:text="Close"
+            android:layout_gravity="start"
+            android:layout_margin="7dp"
+            android:background="@color/Tomato"/>
+
+        <Button
+            android:id="@+id/sendButtonPopupRequest"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="120dp"
+            android:layout_gravity="end"
+            android:layout_margin="60dp"
+            android:text="Send request"
+            android:background="@color/Tomato"/>
+
+    </LinearLayout>
+
+</LinearLayout>

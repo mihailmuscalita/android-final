@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bottomFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.ubb.mylicenseapplication.MainFragment"
+        android:label="main_fragment"
+        tools:layout="@layout/main_fragment" />
+    <fragment
+        android:id="@+id/bottomFragment"
+        android:name="com.ubb.mylicenseapplication.BottomFragment"
+        android:label="fragment_bottom"
+        tools:layout="@layout/fragment_bottom" >
+    </fragment>
+    <fragment
+        android:id="@+id/competitionFragment"
+        android:name="com.ubb.mylicenseapplication.CompetitionFragment"
+        android:label="fragment_competition"
+        tools:layout="@layout/fragment_competition" />
+    <fragment
+        android:id="@+id/friendsFragment"
+        android:name="com.ubb.mylicenseapplication.FriendsFragment"
+        android:label="friends_fragment"
+        tools:layout="@layout/friends_fragment" />
+    <fragment
+        android:id="@+id/requestsFragment"
+        android:name="com.ubb.mylicenseapplication.RequestsFragment"
+        android:label="requests_fragment"
+        tools:layout="@layout/requests_fragment" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.ubb.mylicenseapplication.SearchFragment"
+        android:label="search_fragment"
+        tools:layout="@layout/search_fragment" />
+</navigation>

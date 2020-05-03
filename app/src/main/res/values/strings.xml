@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My License Application</string>
+    <string name="desc">Image</string>
+    <string name="userName">UserName</string>
+    <string name="userPassword">UserPassword</string>
+    <string name="textRegister">Click here to register !</string>
+    <string name="resetPassword">Reset your password !</string>
+    <string name="loginButton">Login</string>
+    <string name="messageRegistered">You are registered to current competition!</string>
+    <string name="register">Register for current competition</string>
+    <string name="friends">Friends</string>
+    <string name="request">Requests</string>
+    <string name="search">New Friends</string>
+    <string name="userNameRegister">Username</string>
+    <string name="userPasswordRegister">Password</string>
+    <string name="newUserRegister">Register</string>
+    <string name="email">Email</string>
+    <string name="appName">Your name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

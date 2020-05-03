@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Tomato"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ImageView
+        android:id="@+id/setpsView"
+        android:layout_width="279dp"
+        android:layout_height="189dp"
+        android:contentDescription="@string/desc"
+        android:scaleType="centerInside"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/steps" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:importantForAutofill="no"
+        tools:targetApi="o"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/userName"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:importantForAutofill="no"
+        tools:targetApi="o"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/userPassword"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/button_radius"
+        android:text="@string/loginButton"
+        android:visibility="visible" />
+
+</RelativeLayout>

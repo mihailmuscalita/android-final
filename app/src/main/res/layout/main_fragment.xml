@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/button_radius"
+        android:text="@string/register"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/messageRegistered"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="You are in competition!"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:text="You are registered !" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/walk"/>
+
+    <EditText
+        android:id="@+id/step"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"/>
+
+
+    <Button
+        android:id="@+id/friendsButton"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/button_radius"
+        android:text="@string/friends"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/requestButton"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/button_radius"
+        android:text="@string/request"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="260dp"
+        android:background="@drawable/button_radius"
+        android:text="@string/search"
+        android:visibility="visible" />
+
+</RelativeLayout>
